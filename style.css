@@ -78,4 +78,33 @@ button:hover {
     text-align: center;
     padding: 0.5rem 0.5rem ;
 }
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    gap: 2rem; /* Space between photo and text */
+}
 
+.photo {
+    width: 500px; /* Adjust size */
+    height: 600px;
+    margin-right: 20%;
+    border-radius: 80px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    max-width: 500px; /* Adjust as needed */
+    margin-right: 0%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#wel, #name, #quote {
+    margin: 10px 0;
+}
